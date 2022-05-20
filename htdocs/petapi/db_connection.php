@@ -13,6 +13,4 @@ $conn = new mysqli($dbhost, $dbusername, $dbpassword , $dbname);
         exit();
     }
 
-
-
 ?>
