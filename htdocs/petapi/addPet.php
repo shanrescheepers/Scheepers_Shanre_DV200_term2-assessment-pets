@@ -26,7 +26,7 @@
     // console.log($data);
 
     // run sql query
-    $sql = INSERT INTO petData (petName, petSpecie, gender, age, petMicroId, owner, ownerId, origin, destination) VALUES (NULL,'$petName', `$petSpecie`, `$gender`, `$age`, `$petMicroId`, `$owner`,`$ownerId`, `$origin`, `$destination`);
+    $sql = INSERT INTO petData (petName, petSpecie, gender, age, petMicroId, owner, ownerId, origin, destination) VALUES (NULL,`$petName`, `$petSpecie`, `$gender`, `$age`, `$petMicroId`, `$owner`,`$ownerId`, `$origin`, `$destination`);
     
     $result = mysqli_query($conn, $sql);
 

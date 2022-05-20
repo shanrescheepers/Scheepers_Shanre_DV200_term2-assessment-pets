@@ -47,8 +47,8 @@ function App() {
         <p>Sign up below and we will send you a quote!</p>
         <form>
           <input onChange={handleChange} name='petName' type='text' placeholder="Name of Pet" />
-          <select>
-            <option selected disabled hidden>Species of Pet</option>
+          <select onChange={handleChange} name='petSpecie'>
+            <option selected disabled hidden  >Species of Pet</option>
             <option>Canine</option>
             <option>Feline</option>
             <option>Equine</option>
